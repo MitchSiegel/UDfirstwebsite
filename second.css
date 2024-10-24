@@ -1,0 +1,32 @@
+h1, h2 {
+  color: tomato;
+}
+
+p {
+  color: white;
+}
+body{
+  background-color:#342E37;
+  color:white;
+}
+ul {
+  border: 2px dotted #CE2029;
+}
+
+ol {
+  border: 2px double white;
+  margin:10px;
+}
+
+ol, ul {
+  border-radius: 10px;
+}
+
+h1, strong {
+  color: #f37422;
+}
+
+em {
+  background-color: #A4A0E6;
+  color:black;
+}
