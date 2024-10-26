@@ -1,0 +1,52 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: #342E37;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: tomato;
+}
+
+p {
+  font-size: 1em;
+}
+
+/* Responsive Layout */
+@media (min-width: 900px) {
+  body {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  p {
+    font-size: 0.9em;
+  }
+}
+
+/* Lists styling for improved accessibility */
+ul, ol {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+ul {
+  border: 2px dotted #CE2029;
+}
+
+ol {
+  border: 2px double white;
+}
